@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Internship Survey Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="column-header">
+	            <h1>Internship Survey Form</h1>
+    </div>
+
+
+	<form id="form">
+		<div class="form-control">
+			<label for="name" id="name">Name</label>
+            <input type="text"
+				id="name"
+				placeholder="Enter your name" required />
+		</div>
+
+
+		<div class="form-control">
+			<label for="email" id="label-email">Email</label>
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" required />
+		</div>
+
+
+		<div class="form-control">
+			<label for="phone" id="label-phone">Phone Number</label>
+			<input type="tel"
+				id="phone"
+				placeholder="Enter your phone number" required />
+		</div>
+
+
+		<div class="form-control">
+			<label>Gender</label>
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed" required>Male</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Female</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Other</input>
+			</label>
+		</div>
+
+
+		<div class="form-control">
+			<label for="college" id="label-college">College\University Name</label>
+			<input type="text"
+				id="college"
+				placeholder="Enter your college name" required />
+		</div>
+
+
+		<div class="form-control">
+			<label for="year" id="label-role">Graduation Year</label>
+			<select name="year" id="dropdown" required>
+				<option value="year">2022</option>
+				<option value="year">2023</option>
+				<option value="year">2024</option>
+				<option value="year">2025</option>
+				<option value="year">2026</option>
+				<option value="year">other</option>
+			</select>
+		</div>
+
+
+		<div class="form-control">
+			<label for="role" id="label-role">Domain of Internship</label>
+			<select name="role" id="dropdown" required>
+				<option value="domain">Website Development</option>
+				<option value="domain">Data Science</option>
+				<option value="domain">Android Development</option>
+				<option value="domain">Java Programming</option>
+				<option value="domain">Cloud Computing</option>
+			</select>
+		</div>
+
+		
+		<div class="form-control">
+			<label>Skills acquired</label>
+			<label for="inp-1">
+				<input type="checkbox" name="inp">C++</input>
+            </label>
+			<label for="inp-2">
+				<input type="checkbox" name="inp">Python</input>
+            </label>
+			<label for="inp-3">
+				<input type="checkbox" name="inp">Java</input>
+            </label>
+			<label for="inp-4">
+				<input type="checkbox" name="inp">PHP</input>
+            </label>
+            </label>
+			<label for="inp-5">
+				<input type="checkbox" name="inp">HTML</input>
+            </label>
+			<label for="inp-6">
+				<input type="checkbox" name="inp">Ajax</input>
+            </label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp">CSS</input>
+            </label>
+			<label for="inp-8">
+				<input type="checkbox" name="inp">C#</input>
+            </label>
+			<label for="inp-9">
+				<input type="checkbox" name="inp">SQL</input>
+            </label>
+			<label for="inp-10">
+				<input type="checkbox" name="inp">Javascript</input>
+            </label>
+			<label for="inp-11">
+				<input type="checkbox" name="inp">Ruby</input>
+            </label>
+			<label for="inp-12">
+				<input type="checkbox" name="inp">.NET</input>
+            </label>
+		</div>
+
+
+		<div class="form-control">
+			<label for="comment">
+				Additional Skills
+			</label>
+
+			<textarea name="comment" id="comment"
+				placeholder="">
+			</textarea>
+		</div>
+
+
+        <div class="form-control">
+		    <button type="submit" value="submit">
+			    Submit
+		    </button>
+        </div>
+		
+		<script src="main.js"></script>
+	</form>
+</body>
+</html>
+

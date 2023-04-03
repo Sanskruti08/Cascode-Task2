@@ -1,0 +1,62 @@
+
+		body {
+            background-image: url("images/image1.jpg");
+			background-color: #d5daef;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		h1 {
+				font-size: 55px;
+				color: rgb(13, 98, 117);
+		}
+		form {
+			background-color: #c8d7e5;
+			max-width: 1000px;
+			margin: 50px auto;
+			padding: 40px 40px;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 25px;
+		}
+
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+			font-size: 25px;
+		}
+
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		button {
+			background-color: #138bc8;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 30px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
